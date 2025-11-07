@@ -5,29 +5,50 @@
 }
 
 .nav-bar{
-  background-color: #add8e6;
+  background-color:  #add8e6;
   
 }
 .container{
   display: flex;
   justify-content:space-evenly;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .logo{
+  width: 20%;
   border:2px dashed black;
-  background-color: #daa520;
+  background-color: #d9a521;
+  text-align:center
   
 }
 .link{
- /*argin:0 auto;*/
+  width: 60%;
   border:2px dashed black;
-  background-color: #daa520;
-  
+  background-color: #d9a521;
+  text-align:center
 }
 
 .login{
     border:2px dashed black;
-  background-color: #daa520;
-  
-  
+  background-color: #d9a521;
+  width: 20%;
+  text-align:center
 }
+
+/*BANNER*/
+.banner{
+  display:flex;
+  background-color:blue;
+  justify-content:center;
+  border-bottom: 5px solid  #add8e6;
+/*   padding: 30px; */
+}
+.pink-card,.blue-card{
+  border:2px dashed black;
+  background-color:pink;
+  width: 600px;
+  height:300px;
+  margin: 30px;
+}
+  
