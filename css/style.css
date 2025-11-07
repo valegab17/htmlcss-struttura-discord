@@ -38,6 +38,12 @@
     width: 20%;
     text-align: center;
 }
+.button{
+     width: 20%;
+    border: 2px dashed black;
+    background-color: #d9a521;
+    text-align: center;
+}
 
 /*BANNER*/
 .banner {
@@ -55,8 +61,7 @@
     width: 600px;
     height: 300px;
     margin: 30px;
-    */
-}
+    }
 
 .blue-card {
     background-color: blue;
@@ -116,3 +121,42 @@
   
 }
 
+/*FOOTER*/
+footer{
+  background-color: #23272a
+}
+
+.stretch-section{
+  padding:5px 200px;
+  display:flex;
+  align-items:stretch
+}
+.salmon {
+    background-color: salmon;
+    height: 400px;
+    width:50%;
+    border: 2px dashed black
+}
+
+.green{
+    background-color: lightseagreen;
+    flex-grow: 1;
+  flex-basis: calc((100% / 12) * 4);
+  border:2px dashed white;
+}
+
+/*BUTTON*/
+.button-container{
+  width:100%;
+  height:50px;
+  background-color:aqua;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo-pink, .button{
+  background-color: salmon;
+  border: 1px dashed black;
+  padding:5px
+}
