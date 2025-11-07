@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  background-color: #add8e6;
+  
+}
+.container{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.logo{
+  border:2px dashed black;
+  background-color: #daa520;
+  
+}
+.link{
+ /*argin:0 auto;*/
+  border:2px dashed black;
+  background-color: #daa520;
+  
+}
+
+.login{
+    border:2px dashed black;
+  background-color: #daa520;
+  
+  
+}
