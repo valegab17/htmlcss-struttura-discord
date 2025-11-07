@@ -160,3 +160,7 @@ footer{
   border: 1px dashed black;
   padding:5px
 }
+
+.button{
+    padding: 0;
+}
