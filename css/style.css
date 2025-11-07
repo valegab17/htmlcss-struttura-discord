@@ -1,7 +1,17 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Generics*/
+.w-70 {
+  width: 70%;
+  margin:0 
+}
+
+.w-30 {
+  width: 30%;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .nav-bar{
@@ -51,4 +61,24 @@
   height:300px;
   margin: 30px;
 }
+  .blue-card{
+    background-color: blue;
+  }
+/*MAIN-CONTENT*/
+
+.main-content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*WHITE CONTAINER*/ 
+.white-container,.grey-container{
+  display:flex; 
+  margin: 40px 
   
+}
+/*GREY CONTAINER*/
+.grey-container{
+    background-color: lightslategrey;
+    flex-direction: row-reverse;
+}
