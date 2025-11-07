@@ -61,15 +61,16 @@
 .blue-card {
     background-color: blue;
 }
-
+/*WHITE CONTENT*/
 .white-content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .white-container {
     display: flex;
-    margin: 40px
+    margin: 40px;
+    padding: 50px 0; 
 }
 
 .w-70 {
@@ -81,15 +82,18 @@
     width: 30%;
     margin: 0;
 }
+/*GREY CONTENT*/
+.grey-content {
+    background-color: grey;
+    width: 100%;
+    margin-top: 40px;
+}
 
 .grey-container {
     display: flex;
-    margin: 40px;
-    background-color: grey;
+    justify-content: center;
     flex-direction: row-reverse;
+    width: 95%;
+    margin: 0 auto; 
     padding: 50px 0
-}
-.grey-content{
-    width: 80%;
-    margin: 0 auto;
 }
