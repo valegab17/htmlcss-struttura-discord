@@ -97,3 +97,22 @@
     margin: 0 auto; 
     padding: 50px 0
 }
+
+/*GREEN CONTENT*/
+.green-content{
+   background-color: grey;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+}
+
+.green-container{
+  background-color: green;
+  width: 80%;
+  height:700px;
+  margin:40px;
+  border: 2px dashed black 
+  
+}
+
